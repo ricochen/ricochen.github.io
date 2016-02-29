@@ -115,45 +115,20 @@ body {
 
 .skills h1 {
     font-size: 3em;
+    padding-bottom: 1.5em;
 }
 
-.languages {
-    float: left;
-    padding: 3em;
+.skillList {
+    display: inline-block;
+    padding: 0 4em;
 }
 
-.languagaes h4 {
-    font-size: 3em;
+.skillList h4 {
+    font-size: 2em;
+    padding-bottom: .5em;
 }
 
-.languages li {
-    list-style-type: none;
-    padding: .5em;
-}
-
-.software {
-    float: right;
-    padding: 3em;
-}
-
-.software h4 {
-
-}
-
-.software li {
-    list-style-type: none;
-    padding: .5em;
-}
-
-.frameworks {
-    padding: 3em;
-}
-
-.frameworks h4 {
-
-}
-
-.frameworks li {
+.skillList li {
     list-style-type: none;
     padding: .5em;
 }
@@ -168,10 +143,12 @@ body {
 .portfolio h1 {
     font-size: 3em;
     color: white;
+    padding-bottom: 1.5em; 
 }
 
 .portfolio-item {
-    padding: 3em;
+    padding: 0 7em;
+    display: inline-block;
 }
 
 /* Arrows */
@@ -222,18 +199,17 @@ body {
 
 .arrow-up {
     transform: rotate(180deg);
-    margin-top: -1.5em;
 }
 
 /* Footer */
 
 .footer {
     color: white;
-    background: #101010;
     padding: 1em 1.25em;
     margin-top: -3em;
 }
 
 .footer span {
     float: right;
+    margin-top: -1em;
 }
