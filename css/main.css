@@ -1,43 +1,90 @@
+/*Base Styles */
 body {
-    margin: 60px auto;
-    width: 70%;
+    font: 1em/1.2;
+    font-family: 'Helvetica';
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+h1,h2,h3,h4,h5,h6 {
+    
+
+}
+/* Layout Styles */
+.header {
+    
+    padding: 1em 1.25em;
+}
+.container {
+    
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    color: white;
+}
+.heading2 {
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+}
+/* Nav */
+.nav {
     list-style: none;
-    font-weight: bold;
+    float: right;
+    margin-right: 60px;
 }
-nav ul li, footer ul li {
+.nav li {
     display: inline;
-    margin-right: 20px;
+   
 }
-a {
+.nav a {
+    padding: .7em 1em;
+    color: white;
     text-decoration: none;
-    color: #999;
 }
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.nav a:hover {
+    color: black;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/* Icons */
+
+.icons {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 40px;
+}
+.icons li {
+    display: inline;
+    padding: 1em 1em;
+}
+.icons a {
+    color: white;
+}
+.icons a:hover {
+    color: black;
 }
 
-ul.posts li {
-    list-style: none;
+/* Video */
+#video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size:;
+
+}
+
+.about {
+    margin-top: 100px;
+    padding: 50px 50px 50px 50px;
+    background-color: white;
+    text-align: center;
 }
