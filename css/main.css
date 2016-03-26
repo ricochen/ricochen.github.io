@@ -64,10 +64,16 @@ body {
 .icons a {
     color: white;
     padding: 1em;
+    text-decoration: none;
 }
 
 .icons a:hover {
     color: black;
+}
+
+.icons li:last-child {
+    font-size: 1.4em;
+    margin-left: -.5em;
 }
 
 /* About */

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Rico Chen officially live"
 date: 2016-03-04
 ---

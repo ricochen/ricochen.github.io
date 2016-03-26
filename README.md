@@ -1,2 +1,2 @@
-f=# ricochenx.com
+# ricochenx.com
 Personal website
