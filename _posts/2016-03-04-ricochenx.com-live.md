@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rico Chen officially live"
+title: "Website officially live"
 date: 2016-03-04
 ---
 
