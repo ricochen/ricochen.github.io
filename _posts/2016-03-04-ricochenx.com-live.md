@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaultpost
 title: "Website officially live"
 date: 2016-03-04
 ---
