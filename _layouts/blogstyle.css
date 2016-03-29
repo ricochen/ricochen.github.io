@@ -22,6 +22,10 @@ h1 {
     margin: 1em 0;
 }
 
+.container {
+  padding: 3em 0;
+}
+
 nav, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
