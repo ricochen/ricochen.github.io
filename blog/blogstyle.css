@@ -12,6 +12,8 @@
     margin: 0;
 }
 
+/* Body */
+
 body {
     margin: 6em auto;
     width: 70%;
@@ -23,7 +25,7 @@ h1 {
 }
 
 .container {
-  padding: 3em 0;
+    padding: 3em 0;
 }
 
 nav, footer ul {
@@ -70,5 +72,5 @@ ul.posts li {
 }
 
 .icon {
-  color: #999;
+    color: #999;
 }

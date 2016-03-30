@@ -215,3 +215,7 @@ body {
     float: right;
     margin-top: -1em;
 }
+
+@media screen and (max-width:640px) {
+.leftSideBar, .rightSideBar {display:none}
+}

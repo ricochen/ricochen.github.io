@@ -1,2 +1,2 @@
 # ricochenx.com
-Personal website
+Personal website created using HTML, CSS, JavaScript and Jekyll
