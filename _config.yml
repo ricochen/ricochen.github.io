@@ -1,3 +1,4 @@
 name: Rico Chen
 markdown: kramdown
+input: GFM
 baseurl: /blog

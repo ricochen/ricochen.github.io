@@ -4,19 +4,20 @@
       <title>{{ page.title }}</title>
       <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/blogstyle.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      {% include google_analytics.html %}
     </head>
     <body>
       <nav>
         <a href="https://ricochen.github.io/blog">Blog</a>
       </nav>
       <h1>{{ page.title }}</h1>
-      <p class="meta">{{ page.date | date: '%B %-d, %Y' }}</p>
+      <span>{{ page.date | date: '%B %-d, %Y' }}</span>
       <div class="container">
 
       {{ content }}
 
-      </div><!-- /.container -->
-      <footer class="icons">
+      </div>
+      <footer>
         <ul>
           <li><a href="https://github.com/ricochen" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
           <li><a href="https://www.linkedin.com/in/ricochenx" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
