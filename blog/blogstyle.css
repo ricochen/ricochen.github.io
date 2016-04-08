@@ -26,6 +26,7 @@ h1 {
 
 .container {
     padding: 3em 0;
+    line-height: 1.1em;
 }
 
 nav, footer ul {

@@ -8,7 +8,7 @@ I got into MakerSquare! It is one of the core Hack Reactor schools, with the sam
 
 But why JavaScript?
 
-I actually started off learning Python, but quickly switched over to JavaScript after some convincing advice from friends who were already engineers and extensive research online about each language. One of the best resources I found for choosing a programming language to learn first is this [cheat sheet](http://makeawebsitehub.com/which-programming-language/).
+I actually started off learning Python, but quickly switched over to JavaScript after some convincing advice from friends who were already engineers and extensive research online about each language. One of the best resources I found for choosing a programming language to learn first is this [cheat sheet](http://makeawebsitehub.com/which-programming-language/){:target="_blank"}.
 
 I think mastering JavaScript is the best way to get my foot in the door. Not only is it high in demand, but its the only programming language that runs both in the frontend and the backend, and is built into all major browsers.
 
