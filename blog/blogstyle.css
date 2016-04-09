@@ -20,13 +20,9 @@ body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-h1 {
-    margin-top: 1em;
-}
-
 .container {
-    padding: 3em 0;
     line-height: 1.5em;
+    padding: 3em 0;
 }
 
 nav, footer ul {
@@ -41,10 +37,19 @@ nav, footer ul li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #999;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+.posts a, nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.posts a:hover, nav a:hover {
     text-decoration: underline;
     color: #999;
 }
@@ -52,6 +57,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-top: 1em;
 }
 
 ul.posts {
@@ -64,7 +70,7 @@ ul.posts li {
     padding: .25em 0;
 }
 
-li span {
+.posts li span {
     color: #999;
     float: right;
 }
@@ -76,6 +82,10 @@ footer {
 
 .icons {
     color: #999;
+}
+
+.icons a {
+    color: #999
 }
 
 .icons a:hover {
