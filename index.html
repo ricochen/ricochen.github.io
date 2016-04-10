@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-		<link rel="stylesheet" href="assets/css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/main.css">
 
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="assets/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Rico Chen</title>
-
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,47 +18,70 @@
 	<body>
 
 		<!-- Header -->
-		<div class="header" id="header">
-			<video id="video" autoplay muted poster="assets/image.png">
+    <div class="container valign-wrapper" id="header">
+			<video autoplay muted>
 				<source src="assets/video.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
-				<h1>Rico Chen</h1>
-				<h3>Software Engineer</h3>
-			<div class="icons">
-				<ul>
-					<li><a href="https://github.com/ricochen" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/ricochenx" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
-					<li><a href="mailto:ricochenx@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a></li>
-					<li><a href="https://ricochen.github.io/blog">Blog</a></li>
-				</ul>
-			</div>
-		</div>
-			<div class="arrow">
-				<a id="arrow1" href="#about">&#8250;</a>
-			</div>
+      <div class="row valign center-align">
+        <div class="col s12">
+  				<h1>Rico Chen</h1>
+        </div>
+        <div class="col s12">
+  				<h3>Software Engineer</h3>
+        </div>
+        <div class="col s12">
+          <div class="icons">
+    				<ul>
+    					<li><a href="https://github.com/ricochen" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+    					<li><a href="https://www.linkedin.com/in/ricochenx" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+    					<li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="ricochenx@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+    					<li><a href="https://ricochen.github.io/blog">Blog</a></li>
+    				</ul>
+    			</div>
+        </div>
+        <div class="col s12 arrow">
+          <a href="#about"><i class="fa fa-angle-down fa-5x"></i></a>
+        </div>
+      </div>
+    </div>
 
 		<!-- About -->
-		<div class="about" id="about">
-			<h1>ABOUT ME</h1>
-				<img src="image.jpg" alt="" />
-				<h4>I've never had as much fun as I do writing code, and then learning how to refractor it for efficiency and clarity. There's something deeply satisfying about developing an outline, creating an initial application, and seeing it come to life.  It's almost as fun as watching shows like Suits and Silicon Valley for the first time, almost. Software engineering and web development allows me to use my knowledge to build meaningful software for users, and thats what I'm looking for. To turn innovative ideas into products, and have a ton of fun doing it.</h4>
-			<div class="arrow">
-				<a id ="arrow2" href="#skills">&#8250;</a>
-			</div>
+    <div class="aboutbg" onmouseenter="Materialize.fadeInImage('img'); Materialize.fadeInImage('h6'); this.onmouseenter=null;">
+		<div class="container" id="about">
+      <div class="row center-align">
+        <div class="col s12">
+          <h1>ABOUT ME</h1>
+        </div>
+        <div class="col s12">
+  				<img src="image.jpg" alt="" />
+        </div>
+        <div class="col s12">
+  				<h6>I've never had as much fun as I do writing code, and then learning how to refractor it for efficiency and clarity. There's something deeply satisfying about developing an outline, creating an initial application, and seeing it come to life.  It's almost as fun as watching shows like Suits and Silicon Valley for the first time, almost. Software engineering and web development allows me to use my knowledge to build meaningful software for users, and thats what I'm looking for. To turn innovative ideas into products, and have a ton of fun doing it.</h6>
+        </div>
+        <div class="col s12 arrow">
+          <a href="#skills"><i class="fa fa-angle-down fa-5x"></i></a>
+        </div>
+      </div>
 		</div>
+    </div>
 
 		<!-- Skills -->
-		<div class="skills" id="skills">
-			<h1>SKILLS</h1>
-				<ul class="skillList">
-					<h4><i class="fa fa-book"></i> Languages</h4>
+    <div class="skillsbg" onmouseenter="Materialize.showStaggeredList('.skillList'); this.onmouseenter=null;">
+		<div class="container" id="skills">
+      <div class="row center-align">
+        <div class="col s12">
+    			<h1>SKILLS</h1>
+        </div>
+        <div class="col s12">
+  				<ul class="skillList">
+  				<h4><i class="fa fa-book"></i> Languages</h4>
 						<li>HTML</li>
             <li>CSS</li>
 						<li>JavaScript</li>
 						<li>SQL</li>
-				</ul>
-        <ul class="skillList">
+  				</ul>
+          <ul class="skillList">
           <h4><i class="fa fa-skyatlas"></i> Frameworks</h4>
             <li>jQuery</li>
             <li>React.js</li>
@@ -67,27 +90,38 @@
             <li>Express.js</li>
             <li>D3.js</li>
             <li>Bootstrap</li>
-        </ul>
-				<ul class="skillList">
+          </ul>
+  				<ul class="skillList">
 					<h4><i class="fa fa-database"></i> Databases</h4>
 						<li>PostgreSQL</li>
 						<li>MySQL</li>
 						<li>MongoDB</li>
-				</ul>
-        <ul class="skillList">
+  				</ul>
+          <ul class="skillList">
           <h4><i class="fa fa-wrench"></i> Tools</h4>
             <li>Git</li>
             <li>Mocha</li>
             <li>Chai</li>
-        </ul>
-			<div class="arrow">
-				<a id ="arrow3" href="#portfolio">&#8250;</a>
-			</div>
-		</div>
+          </ul>
+        </div>
+        <div class="col s12 arrow">
+          <a href="#portfolio"><i class="fa fa-angle-down fa-5x"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+
 
 		<!-- Portfolio -->
-		<div class="portfolio" id="portfolio">
-			<h1>PORTFOLIO</h1>
+		<div class="container" id="portfolio">
+      <div class="row center-align">
+        <div class="col s12">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div class="col s12">
+          <h1>Coming Soon</h1>
+        </div>
+      <!--
         <div class="portfolio-item">
   				<a href="#"><img src="#" alt="" /></a>
   			</div>
@@ -96,18 +130,15 @@
   			</div>
   			<div class="portfolio-item">
   				<a href="#"><img src="#" alt="" /></a>
-  			</div>
-			<div class="arrow">
-				<div class="arrow-up">
-					<a id ="arrow4" href="#header">&#8250;</a>
-				</div>
-			</div>
-		</div>
-
-    <!-- Footer -->
-		<div class="footer">
-			&copy; Rico Chen 2016
-			<span><i class="fa fa-envelope-o fa-2x"></i> ricochenx@gmail.com</span>
-		</div>
+  			</div>-->
+        <div class="col s12 arrow">
+          <a href="#header"><i class="fa fa-angle-up fa-5x"></i></a>
+        </div>
+		  </div>
+      <!-- Footer -->
+      <div class="footer">
+       <i class="fa fa-copyright"></i> Rico Chen 2016
+      </div>
+    </div>
 	</body>
 </html>
