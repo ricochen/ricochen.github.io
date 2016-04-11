@@ -2,6 +2,6 @@ name: Rico Chen
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
+  hard_wrap: true
 highlighter: rouge
 baseurl: /blog
