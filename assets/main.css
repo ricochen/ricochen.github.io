@@ -79,16 +79,11 @@ video {
   color: #b0bec5;
 }
 
-img {
-  margin: 16px;
-}
-
 img, h6 {
   opacity: 0;
 }
 
 h6 {
-  margin-top: 32px;
   font-size: 120%;
   line-height: 1.75em;
 }
