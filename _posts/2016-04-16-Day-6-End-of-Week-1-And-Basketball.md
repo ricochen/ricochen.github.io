@@ -1,6 +1,6 @@
 ---
 layout: defaultpost
-title: "Week 1 and Basketball"
+title: "End of Week 1 and Basketball"
 date: 2016-04-16
 ---
 
