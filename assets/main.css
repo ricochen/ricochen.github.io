@@ -77,11 +77,11 @@ video {
   color: #b0bec5;
 }
 
-img, h6 {
+img, p {
   opacity: 0;
 }
 
-h6 {
+p {
   font-size: 120%;
   line-height: 1.75em;
 }
