@@ -1,0 +1,8 @@
+---
+layout: defaultpost
+title: "React-Router-Redux"
+date: 2016-06-18
+---
+
+Looking at the package.json file for our app, I think we've entered library hell. And to add to that, I looked into react-router-redux today because we were going to implement user authentication in our app next week, and so we would need to somehow save a component state based on the path. React-router-redux has a short and simple API, but the amount of libraries I'm using in React has gotten to the point that there are some cases where I don't even know anymore. I spent a few hours integrating our app with react-router-redux, only to find out it wasn't needed, as the reason why some components weren't rendering wasn't because the state wasn't saving the data, but because a function wasn't being invoked in a file. The good news is that's one less library for our app!<br />
+I also invited two friends today to MakerSquare. One of them was interested in joining, and wanted practice with JavaScript for the interview as well as take a sneak peek into the everyday life of a bootcamper. We went over callback functions, and reusing them in other functions known as Higher Order Functions, or Functional Programming. His interview is actually next week, and after our learning session today he decided he wasn't ready yet, so he pushed back the interview date. I hope he gets in! MakerSquare is one of the best choices I've made in my life, and I'm sure it will be a life changing experience for him as well.

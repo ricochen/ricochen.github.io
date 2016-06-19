@@ -1,0 +1,9 @@
+---
+layout: defaultpost
+title: "Jasmine Tests"
+date: 2016-06-17
+---
+
+Writing tests, something that engineers say they will do, but never actually end up doing. But I can relate, sometimes it just feels faster to write the actual code and see if it works as I go along. However, before I know it, I would have written a huge code base and not a single test. Then at the end, I write a bunch of tests that pass the code I've already written, instead of writing code that passes tests.<br />
+I've been actively straying away from bad testing habits, and in the thesis project decided to write tests early. Today I wrote server side tests in Jasmine, and since the tests are for the server, which largely comprises of HTTP requests, I had to write asynchronous tests. I started by writing a test spec file for the server config file, which mainly handles the root route '/'. It wasn't that difficult as the root route simply renders the home page. But that also included making a GET request to '/' to see if the server is correctly handling the request and serving back HTML, in which it was as all the tests passed.<br />
+The hard part came when I had to write a test spec file for the API router file that handles HTTP requests to twitter, reddit and bing APIs. The tests required multiple POST requests from myself that resulted in GET requests in the server to these APIs, which fetched hundreds of data points. Since Jasmine has a default timeout of 5 seconds for assertions, needless to say all of the HTTP requests I was making in the test spec timed out. I tried different ways such as Jasmine's done feature, and prolonging the default timeout in Jasmine's before each function to not begin the assertion until the HTTP requests are finished. There are still some failures for assertions, however, which I will resolve to fix tomorrow.
