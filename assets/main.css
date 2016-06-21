@@ -23,7 +23,7 @@ video {
   top: 50%;
   left: 50%;
   min-width: 100%;
-  min-height: 125%;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
@@ -95,8 +95,8 @@ p {
 }
 
 .skillList {
+  margin-right: 100px;
   display: inline-table;
-  padding: 0 16px;
 }
 
 .skillList li {
