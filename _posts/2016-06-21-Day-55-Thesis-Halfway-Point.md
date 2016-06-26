@@ -1,0 +1,10 @@
+---
+layout: defaultpost
+title: "Thesis Halfway Point"
+date: 2016-06-21
+---
+
+With only a week and two days left to implement features into our thesis project, my group had to make some drastic decisions on what we should do. We initially wanted to create a database that stores the Twitter and Reddit data in tables, as well as graphs that users have already rendered, but in our group check in with the instructor, he recommended we add more to the front-end. I shared a similar view, as we were doing some cool stuff in the back-end, but didn't show as much as we wanted to the user. We also wanted to implement user authentication, and allow users to signup and login to save their data, and access it anytime.<br />
+However, none of those features gave the most bang for our buck, meaning they wouldn't be the best use of our time. We decided to focus on user experience and add more features to the front-end with our remaining time. A few of the features we agreed upon included a tooltip near the search bar to explain what our app does and how to use it. Another was adding more graphs, and allowing the user to switch between graphs through a navbar.<br />
+Before we pivoted, I was working on the database and its schema. I used Bookshelf as the ORM and PostgreSQL as the database. It didn't take long to create the initial connection, and I even made a users table, collection and user model. Unfortunately, the database might not store more than that at this point, but it was good practice setting it up.<br />
+Other than creating the database, I worked on a feature to show the user a table of our data instead of a graph. It has rows and columns, and would show the username, comment, and the number of upvotes. I figured it would pair nicely alongside the graphs, and add more value in the data it showed versus another graph.

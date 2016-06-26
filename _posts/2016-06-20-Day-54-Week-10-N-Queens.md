@@ -1,0 +1,10 @@
+---
+layout: defaultpost
+title: "Week 10 N-Queens"
+date: 2016-06-20
+---
+
+N-queens is a classic algorithm problem where given a number of queens n, find the total number of solutions where none of the queens are in conflict, and there are n queens on the board. A queen is in conflict when another queen is within its movable spaces, either horizontally, vertically, or diagonally. For example, if n = 4, a solution will be counted when there are 4 queens on the board and none are in conflict. Today was a one day sprint focused on solving the n-queens problem, as well as an n-rooks problem, which is the same except instead of queen conflicts, it is rook conflicts.<br />
+I have to admit, the problem was pretty difficult. It's not one of those toy problems that can be done in an hour with 20 lines of code. The problem required a substantial amount of thinking before writing any code, and walking through combinations that would work and ones that wouldn't, along with edge cases and common patterns. In fact, I think I spent 70% of the time thinking and 30% actually writing code.<br />
+I came up with a few helper functions that checked to see if there was a conflict in the current row, current column, and both the diagonals, as well as functions that set and get a piece's value of 1 if a piece is there, or 0 if it's empty. With that I was ready to write the actual solution functions to n-queens and n-rooks.<br />
+The solution function involves setting board pieces to 1 initially, then checks to see if there are any conflicts on the board, if not it will recurse to the next row with the piece staying set at 1. If there is a conflict it will set the piece back to 0 and go to the adjacent cell and recurse again. When the last row equals n, it means all the pieces have been placed on the board without conflict, and so the solution count is incremented and the nested function is returned. Eventually, the function will have checked every possible combination in which it exits the function and moves to the next line of code where the solution count is returned.
