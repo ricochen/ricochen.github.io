@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="assets/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -41,14 +38,14 @@
     </div>
     <!-- About -->
     <div class="aboutbg" onmousemove="Materialize.fadeInImage('img'); Materialize.fadeInImage('p'); this.onmousemove=null;">
-      <div class="container valign-wrapper" id="about">
-        <div class="row valign center-align">
+      <div class="container" id="about">
+        <div class="row center-align">
           <div class="col s12">
             <h1>ABOUT ME</h1> </div>
           <div class="col s12"> <img src="image.jpg" alt="" /> </div>
           <div class="col s12">
             <p>I've never had as much fun as I do writing code, and then learning how to refactor it for efficiency and clarity. There's something deeply satisfying about developing an outline, creating an initial application, and seeing it come to life.  It's almost as fun as watching shows like Suits and Silicon Valley for the first time, almost. Software engineering and web development allows me to use my knowledge to build meaningful software for users, and thats what I'm looking for. To turn innovative ideas into products, and have a ton of fun doing it.</p>
-            </div>
+          </div>
           <div class="col s12 arrow"> <a href="#skills"><i class="fa fa-angle-down fa-5x"></i></a> </div>
         </div>
       </div>
@@ -96,25 +93,49 @@
       </div>
     </div>
     <!-- Portfolio -->
-    <div class="container center-align" id="portfolio">
-      <div class="row">
+    <div id="portfolio">
+      <div class="container row center-align">
         <div class="col s12">
           <h1>PORTFOLIO</h1> </div>
-        <div class="col s12">
-          <h1>Coming Soon</h1> </div>
-        <!--<div class="portfolio-item">
-        <a href="#"><img src="#" alt="" /></a>
+        <div class="row">
+          <div class="col s6">
+            <h5 class="card-title">Basselope</h5>
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="assets/kirk.jpg" class="resize" alt="" />
+              </div>
+              <div class="card-content cards">
+                <span>Data visualization of social media content using sentiment analysis</span>
+              </div>
+              <div class="card-action cards2">
+                <a href="http://basselope.io" target="_blank">Live Site</a>
+                <a href="https://github.com/ricochen/Basselope" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <h5 class="card-title">Kirk</h5>
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="assets/kirk.jpg" class="resize" alt="" />
+              </div>
+              <div class="card-content cards">
+                <span>Search application that uses speech recognition to retrieve data based on content of speech</span>
+              </div>
+              <div class="card-action cards2">
+                <a href="http://kirk1.herokuapp.com" target="_blank">Live Site</a>
+                <a href="https://github.com/ricochen/kirk" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="arrow2"> <a href="#header"><i class="fa fa-angle-up fa-5x"></i></a> </div>
         </div>
-        <div class="portfolio-item">
-        <a href="#"><img src="#" alt="" /></a>
-        </div>
-        <div class="portfolio-item">
-        <a href="#"><img src="#" alt="" /></a>
-        </div>-->
-        <div class="col s12 arrow"> <a href="#header"><i class="fa fa-angle-up fa-5x"></i></a> </div>
       </div>
-      <!-- Footer -->
-      <div class="footer"> <i class="fa fa-copyright"></i> Rico Chen 2016 </div>
     </div>
+    <!-- Footer -->
+    <!-- <div class="footer"> <i class="fa fa-copyright"></i> Rico Chen 2016 </div> -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>

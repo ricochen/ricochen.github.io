@@ -77,12 +77,13 @@ video {
   color: #b0bec5;
 }
 
-img, p {
+.aboutbg img, p {
   opacity: 0;
+  margin-top: 40px;
 }
 
-p {
-  font-size: 120%;
+.aboutbg p {
+  font-size: 140%;
   line-height: 1.75em;
 }
 
@@ -114,11 +115,35 @@ p {
 }
 
 #portfolio {
-  color: #eeeeee;
+  background-color: #fafafa;
+}
+
+.cards {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.cards2 {
+  margin-bottom: -1px;
+}
+
+.arrow2 {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -57px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow2 a:hover {
+  color: black;
+}
+
+.resize {
+  width: 250px;
+  height: auto;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   color: #eeeeee;
 }
