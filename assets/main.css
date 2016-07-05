@@ -77,14 +77,21 @@ video {
   color: #b0bec5;
 }
 
+.aboutbg img {
+  width: 320px;
+  height: auto;
+  float: left;
+}
+
 .aboutbg img, p {
   opacity: 0;
-  margin-top: 40px;
 }
 
 .aboutbg p {
-  font-size: 140%;
-  line-height: 1.75em;
+  font-size: 130%;
+  line-height: 2em;
+  width: 130%;
+  margin-top: 20px;
 }
 
 .skillsbg {
