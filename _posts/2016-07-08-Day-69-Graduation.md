@@ -1,0 +1,7 @@
+---
+layout: defaultpost
+title: "Graduation"
+date: 2016-07-08
+---
+
+I DID IT! It's been such an incredible experience these last 3 months and during graduation I initially wasn't going to but I ended up a bit teary eyed. The speech the managing director gave was so heartfelt she stopped in the middle and started crying, which led to me crying. What I went through has really been a career changer, because now I'm a fullstack software engineer. And even if I come across technologies or languages I haven't used before, I'm able to learn them quickly and apply computer science fundamentals. The difference between my previous career and my future career, is like night and day. I'm going to thoroughly enjoy being a software engineer and be challenged in my work, and most importantly, I'm going to love doing it. Learning programming, and joining MakerSquare has single handedly been the best decision I've ever made, both professionally and personally. All of the friends I've made along the way, things I've learned, physical and emotional ups and downs, times of seriousness and times of laughter, were all worth it. I made one last memory by going with everyone to have fun and celebrate our accomplishment; we sang our hearts out in karaoke. But every goodbye brings a new hello, so here I come the real world!
