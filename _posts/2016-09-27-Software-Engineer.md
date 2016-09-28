@@ -1,0 +1,9 @@
+---
+layout: defaultpost
+title: "Software Engineer"
+date: 2016-09-27
+---
+
+After an intense job search, I've finally come to an end. The beginning of September was my last onsite interview and boy am I glad it's over. I started applying during my last week of MakerSquare, and continued to nonstop search for the next 2 months from early July to early September. I sent out over 500 applications and lost count, using sites such as Indeed, LinkedIn, AngelList etc. I did dozens of phone interviews, which consisted of being asked behavioral and technical questions, as well as live coding using an online tool. Oftentimes after this step was a take home coding challenge that ranged anywhere from taking 3 hours to an entire day. I did about 10 of these until I started refusing them as they were becoming a bad investment of my time. Last is an onsite interview, which consists of meeting 4+ people for 30 mins to an hour each and being asked behavioral, technical, whiteboarding, and live coding questions. If the team liked me enough, and thought my technical skills were up to par an offer would be made.<br />
+I did 9 onsite interviews in total, adding on the phone interviews, coding challenges, and applying, every other day I either had an interview or was studying/learning. At the end of 2 months, I received multiple offers and accepted the one from a large tech company. I'm very happy with the outcome and my hard work has immensely paid off. I started learning from 0 at the end of February this year, and for a little over 6 months studied almost everyday and was able to not only completely switch careers, but be in an awesome position for an awesome company.<br />
+I start next month and am officially a software engineer :).
